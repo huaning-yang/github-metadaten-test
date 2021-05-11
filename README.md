@@ -4,7 +4,9 @@ Repository List
 {% for repository in site.github.public_repositories %}
 
     [{{ repository.name }}]({{ repository.html_url }})
-    [{{ repository.contributors_url }}]
+    Latest release:
+    {{{{repository.html_url}}.latest_release.html.url}}
+
 
 {% endfor %}
 
