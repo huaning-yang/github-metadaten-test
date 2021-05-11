@@ -5,9 +5,10 @@ Repository List
 
     [{{ repository.name }}]({{ repository.html_url }})
     [{{ repository.contributors_url }}]
+    {{repository.releases_url}}
 {% endfor %}
 
-{{site.github.owner_name}}
+{{site.github.releases_url}}
 
 Latest releases:
 {{site.github.latest_release}}
