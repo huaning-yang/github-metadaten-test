@@ -10,9 +10,12 @@ Repository List
 
 {{site.github.releases_url}}
 
-
-
 Latest releases:
-{{site.github.latest_release.html_url}}
+{{site.github.latest_release.html_url}} 
+
 {{site.github.latest_release.tag_name}}
+
 {{site.github.latest_release.name}}
+
+Site.github:
+{{site.github}}
