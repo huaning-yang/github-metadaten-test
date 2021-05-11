@@ -8,10 +8,10 @@ Repository List
 
 
 Latest releases:
-{% for latest_release in site.github.latest_release %}
-    {{latest_release.html_url}}
-    {{latest_release.tag_name}}
-    {{latest_release.release_name}}
-    {{latest_release.assets}}
+{% for latest in site.github.latest_release %}
+    {{latest.html_url}}
+    {{latest.tag_name}}
+    {{latest.release_name}}
+    {{latest.assets}}
 {% endfor %}
 
