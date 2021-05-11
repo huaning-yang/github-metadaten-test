@@ -10,5 +10,16 @@ Repository List
 Latest releases:
 {% for latest_release in site.github.latest_release %}
     {{latest_release}}
-    {{latest_release.name}}
+{% endfor %}
+
+Repo Object
+{% for repository in site.github.public_repositories %}
+    {{repository}}
+{% endfor %}
+
+Repo List 2
+{% for repository in site.github.public_repositories %}
+    {% for latest_release in repository.latest_release}
+        latest_release.assets_url
+    {% endfor %}
 {% endfor %}
