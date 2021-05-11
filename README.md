@@ -5,7 +5,7 @@ Repository List
 
     [{{ repository.name }}]({{ repository.html_url }})
     Latest release:
-    {{{{repository.html_url}}.github.latest_release.html.url}}
+    {{ {{repository.html_url}}.github.latest_release.html.url }}
 
 
 {% endfor %}
