@@ -15,3 +15,8 @@ Latest releases:
     {{latest.assets}}
 {% endfor %}
 
+Repo List 2
+{% for repository in site.github.public_repositories %}
+
+        {{repository}}
+{% endfor %}
