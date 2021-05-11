@@ -5,7 +5,7 @@ Repository List
 
     [{{ repository.name }}]({{ repository.html_url }})
     [{{ repository.contributors_url }}]
-    {{repository.releases_url}}
+    {{repository.releases_html_url}}
 {% endfor %}
 
 {{site.github.releases_url}}
