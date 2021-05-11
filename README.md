@@ -9,9 +9,7 @@ Repository List
 
 
 Latest releases:
-{% for latest in site.github.latest_release %}
- {{latest}}
-{% endfor %}
+{{site.github.latest_release}}
 
 Repo List 2
 {% for repository in site.github.public_repositories %}
