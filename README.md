@@ -13,7 +13,7 @@ Repository List
 {{site.github.releases_url}}
 
 Release:
-{{site.github.release}}
+{{site.github.releases}}
 
 Latest releases:
 {{site.github.latest_release}}
