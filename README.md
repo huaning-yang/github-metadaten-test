@@ -7,12 +7,9 @@ Repository List
     [{{ repository.contributors_url }}]
 {% endfor %}
 
+{{site.github.owner_name}}
 
 Latest releases:
 {{site.github.latest_release}}
 
-Repo List 2
-{% for repository in site.github.public_repositories %}
-
-        {{repository}}
-{% endfor %}
+}
