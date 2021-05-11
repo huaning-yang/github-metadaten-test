@@ -8,7 +8,7 @@ Repository List
 
 
 Latest releases:
-{% for latest_release in site.github.latest_releases %}
+{% for latest_release in site.github.latest_release %}
     {{latest_release}}
     {{latest_release.name}}
 {% endfor %}
