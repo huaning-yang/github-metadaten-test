@@ -3,7 +3,8 @@
 Repository List
 {% for repository in site.github.public_repositories %}
 
-        [{{ repository.name }}]({{ repository.html_url }}) 
+        [{{ repository.name }}]({{ repository.html_url }})
+        {{repository.release_url}} 
 {% endfor %}
 
 
@@ -12,14 +13,3 @@ Latest releases:
     {{latest_release}}
 {% endfor %}
 
-Repo Object
-{% for repository in site.github.public_repositories %}
-    {{repository}}
-{% endfor %}
-
-Repo List 2
-{% for repository in site.github.public_repositories %}
-    {% for latest_release in repository.latest_release %}
-        {{latest_release.assets_url}}
-    {% endfor %}
-{% endfor %}
