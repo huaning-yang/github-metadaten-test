@@ -16,6 +16,6 @@ Release:
 {{site.github.releases}}
 
 Latest releases:
-{{site.github.latest_release}}
+{{site.github.latest_release.html_url}}
 
 }
