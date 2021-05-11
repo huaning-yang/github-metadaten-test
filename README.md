@@ -19,5 +19,9 @@ Latest releases:
 
 {{site.github.latest_release.name}}
 
-Site.github:
-{{site.github}}
+Repo Object:
+{% for repository in site.github.public_repositories %}
+
+    {{repository}}
+
+{% endfor %}
