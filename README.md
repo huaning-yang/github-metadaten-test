@@ -19,7 +19,7 @@ Repo Object
 
 Repo List 2
 {% for repository in site.github.public_repositories %}
-    {% for latest_release in repository.latest_release}
+    {% for latest_release in repository.latest_release %}
         latest_release.assets_url
     {% endfor %}
 {% endfor %}
