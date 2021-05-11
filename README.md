@@ -2,4 +2,4 @@
 
 {% for repository in site.github.public_repositories %}{% if repository.archived == false %}
 
-    [{{ repository.name }}]({{ repository.html_url }}) {% endif %}{% endfor %}
+    [{{ repository.name }}]({{ repository.html_url }}) {{repository.latest_release}} {{repository.releases}} {% endif %}{% endfor %}
