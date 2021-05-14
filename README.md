@@ -1,21 +1,154 @@
-# github-metadaten-test
-
-Repository List
-{% for repository in site.github.public_repositories %}
-
-    [{{ repository.name }}]({{ repository.html_url }})
-    Latest release:
-    {{ {{repository.html_url}}.github.latest_release.html.url }}
-    ({{ repository.releases }})
-    [{{ repository.latest_release }}]
 
 
-{% endfor %}
 
-
-Latest releases:
-{{site.github.latest_release.html_url}} 
-
-{{site.github.latest_release.tag_name}}
-
-{{site.github.latest_release.name}}
+  
+___  
+Repository: [distpacker](https://github.com/iqb-berlin/distpacker) Latest Release: [1.0.1](https://github.com/iqb-berlin/distpacker/releases/tag/1.0.1)
+  
+Description: A simple cli-script to embedd linked js & css-files in the index.html  
+___  
+___  
+Repository: [eslint-config](https://github.com/iqb-berlin/eslint-config)
+  
+Description: ESLint rules for javascript and typescript development  
+___  
+___  
+Repository: [iqb-berlin.github.io](https://github.com/iqb-berlin/iqb-berlin.github.io)
+  
+Description: Entry point to the repositories, wikis, discussions of IQB  
+___  
+___  
+Repository: [iqb-components](https://github.com/iqb-berlin/iqb-components)
+  
+Description: A set of recurrent items for Angular projects  
+___  
+___  
+Repository: [iqb-dev-components](https://github.com/iqb-berlin/iqb-dev-components)
+  
+*There is no description for this repository*  
+___  
+___  
+Repository: [iqb-scripts](https://github.com/iqb-berlin/iqb-scripts)
+  
+*There is no description for this repository*  
+___  
+___  
+Repository: [itc-toolbox](https://github.com/iqb-berlin/itc-toolbox)
+  
+Description: some functions to transform data for IQB-Testcenter  
+___  
+___  
+Repository: [mdc-copyright](https://github.com/iqb-berlin/mdc-copyright)
+  
+Description: metadata catalog; used for applications managing copyright issues of publications  
+___  
+___  
+Repository: [mdc-core](https://github.com/iqb-berlin/mdc-core) Latest Release: [1.0.0](https://github.com/iqb-berlin/mdc-core/releases/tag/1.0.0)
+  
+Description: metadata catalog; used in other metadata catalogs to describe scopes and subjects etc.  
+___  
+___  
+Repository: [mdc-educational-standards](https://github.com/iqb-berlin/mdc-educational-standards)
+  
+Description: Educational standards adopted by the Standing Conference of the Ministers of Education and Cultural Affairs of the Länder in the Federal Republic of Germany  
+___  
+___  
+Repository: [mdc-researchdata](https://github.com/iqb-berlin/mdc-researchdata) Latest Release: [1.0.0](https://github.com/iqb-berlin/mdc-researchdata/releases/tag/1.0.0)
+  
+Description: metadata catalog; used in applications managing research data sets and processing requests to use it  
+___  
+___  
+Repository: [mdc-schemadefinition](https://github.com/iqb-berlin/mdc-schemadefinition)
+  
+Description: schema definition for metadata catalogs (xsd)  
+___  
+___  
+Repository: [mdc-testunits](https://github.com/iqb-berlin/mdc-testunits)
+  
+Description: metadata catalog for objects used in educational tests: units, items  
+___  
+___  
+Repository: [testcenter-admin-iqb-ng](https://github.com/iqb-berlin/testcenter-admin-iqb-ng)
+  
+Description: the application the IQB uses for it's own assessments - client-side admin-app angular  
+___  
+___  
+Repository: [testcenter-backend](https://github.com/iqb-berlin/testcenter-backend)
+  
+Description: the application the IQB uses for it's own assessments - server-side php  
+___  
+___  
+Repository: [testcenter-broadcasting-service](https://github.com/iqb-berlin/testcenter-broadcasting-service)
+  
+Description: Small service for the so called supervising monitor of the iqb-testcenter  
+___  
+___  
+Repository: [testcenter-frontend](https://github.com/iqb-berlin/testcenter-frontend)
+  
+Description: the application the IQB uses for it's own assessments - client-side angular; here you find the testcenter wiki for users and administrators  
+___  
+___  
+Repository: [testcenter-response-converter](https://github.com/iqb-berlin/testcenter-response-converter)
+  
+Description: Converts the output of the iqb-testcenter application to handy xlsx-spreadsheets (responses, logs).  
+___  
+___  
+Repository: [testcenter-setup](https://github.com/iqb-berlin/testcenter-setup) Latest Release: [6.5.9@9.2.2+2.0.3](https://github.com/iqb-berlin/testcenter-setup/releases/tag/6.5.9%409.2.2%2B2.0.3)
+  
+Description: (Docker-)Setup for the Testcenter Application  
+___  
+___  
+Repository: [teststudio-lite-backend](https://github.com/iqb-berlin/teststudio-lite-backend)
+  
+Description: Backend of Testcenter-Lite, the application the IQB uses for create test items.  
+___  
+___  
+Repository: [teststudio-lite-frontend](https://github.com/iqb-berlin/teststudio-lite-frontend)
+  
+Description: Frontent of Testcenter-Lite, the application the IQB uses for authoring test items.  
+___  
+___  
+Repository: [teststudio-lite-setup](https://github.com/iqb-berlin/teststudio-lite-setup) Latest Release: [1.0.0@1.0.1](https://github.com/iqb-berlin/teststudio-lite-setup/releases/tag/1.0.0%401.0.1)
+  
+Description: (Docker-)Setup for the Teststudio-Lite  
+___  
+___  
+Repository: [vb-lib](https://github.com/iqb-berlin/vb-lib)
+  
+Description: vb.net-libraries; used by many of the IQB desktop applications; all libraries are published as packages at nuget.org  
+___  
+___  
+Repository: [vb-metadata](https://github.com/iqb-berlin/vb-metadata)
+  
+Description: vb.net libraries and windows application for the management of metadata; published as packages at nuget.org  
+___  
+___  
+Repository: [verona-data-specifications](https://github.com/iqb-berlin/verona-data-specifications)
+  
+Description: This repo contains of all iqb data specifications related to verona-interfaces.  
+___  
+___  
+Repository: [verona-editor-aspect](https://github.com/iqb-berlin/verona-editor-aspect) Latest Release: [0.0.1](https://github.com/iqb-berlin/verona-editor-aspect/releases/tag/0.0.1)
+  
+*There is no description for this repository*  
+___  
+___  
+Repository: [verona-editor-dan](https://github.com/iqb-berlin/verona-editor-dan) Latest Release: [v3.1.0](https://github.com/iqb-berlin/verona-editor-dan/releases/tag/v3.1.0)
+  
+*There is no description for this repository*  
+___  
+___  
+Repository: [verona-editor-plaintext](https://github.com/iqb-berlin/verona-editor-plaintext) Latest Release: [v1.0.1](https://github.com/iqb-berlin/verona-editor-plaintext/releases/tag/v1.0.1)
+  
+Description: Provides one big text input element to edit script based unit definitions or to hack others.  
+___  
+___  
+Repository: [verona-player-abi](https://github.com/iqb-berlin/verona-player-abi) Latest Release: [v3.3.2](https://github.com/iqb-berlin/verona-player-abi/releases/tag/v3.3.2)
+  
+Description: A programmable item-player for surveys. Contains: Player-Plugin, Editor-Plugin   
+___  
+___  
+Repository: [verona-player-dan](https://github.com/iqb-berlin/verona-player-dan) Latest Release: [v3.0.0](https://github.com/iqb-berlin/verona-player-dan/releases/tag/v3.0.0)
+  
+Description: The current default IQB Item for computer based accessment: The Dan-Player. Contains: Player-Plugin, Editor-Plugin  
+___
