@@ -30,16 +30,14 @@ jobs:
       - name: install python requirements
         run: pip install -r requirements.txt
 
-      #create README.md
-      - run: python repo_list.py
-        with: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: authentication
+        run: curl -i -u username:$token https://api.github.com/users/huaning-yang
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: config identity
-        run: git config user.email "huaning.y@gmail.com"
-      
-      - name: config username
-        run: git config user.name "huaning-yang"
+      #create README.md
+      - name: create markdown
+        run: python repo_list.py
 
       - name: check git status
         run: git status
