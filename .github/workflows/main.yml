@@ -32,9 +32,7 @@ jobs:
 
       #create README.md
       - name: create markdown
-        run: python repo_list.py
-        with:
-          input: ${{ secrets.GITHUB_TOKEN }}
+        run: python repo_list.py ${{ secrets.GITHUB_TOKEN }} 
 
       - name: check git status
         run: git status
