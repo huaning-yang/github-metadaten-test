@@ -12,9 +12,11 @@ for i in range(0,len(json)):
   repo = json[i]['name']
   releases = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/releases/latest')
   contributor = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/contributors')
+  pages = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/pages')
   
 
   mdFile.new_line('********')
+  
   if(releases.status_code == 200):
     json2 = releases.json()
     mdFile.new_line('Repository: ' + mdFile.new_inline_link(link=json[i]['html_url'],text=json[i]['name']) + ' ' + 'Latest Release: ' + mdFile.new_inline_link(link=json2['html_url'],text=json2['tag_name']))
@@ -30,8 +32,10 @@ for i in range(0,len(json)):
     contributor_json = contributor.json()
     for c in range(0,len(contributor_json)):
         mdFile.new_line('Contributor: ' + mdFile.new_inline_link(link=contributor_json[c]['html_url'],text=contributor_json[c]['login']))
-      
 
+  if(pages.status_code == 200):
+    pages_json = pages.json()
+    mdFile.new_line(mdFile.new_inline_link(link=pages_json['html_url'],text='Github Pages'))    
 
   mdFile.new_line('********')
 
