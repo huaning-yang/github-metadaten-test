@@ -5,22 +5,20 @@ from mdutils.mdutils import MdUtils
 token = sys.argv[1]
 
 headers = {
-    'Authorization': "Token " + token
+    'Authorization': "token " + token
 }
-response = requests.get('https://api.github.com/', headers=headers)
-print(response)
 
 mdFile = MdUtils(file_name='README')
 
 #username = input("Enter the github username:")
 username = 'iqb-berlin'                                                                                                                               
-request = requests.get('https://api.github.com/users/'+username+'/repos')
+request = requests.get('https://api.github.com/users/'+username+'/repos',headers=headers)
 repository_json = request.json()
 for i in range(0,len(repository_json)):
   repo = repository_json[i]['name']
-  releases = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/releases/latest')
-  contributor = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/contributors')
-  languages = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/languages')
+  releases = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/releases/latest', headers=headers)
+  contributor = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/contributors', headers=headers)
+  languages = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/languages', headers=headers)
   
 
   mdFile.new_line('********')
