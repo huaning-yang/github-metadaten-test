@@ -31,8 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       #create README.md
-      - name: create markdown
-        run: python repo_list.py
+      - run: python repo_list.py
         with: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
