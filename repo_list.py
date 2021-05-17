@@ -5,7 +5,7 @@ from mdutils.mdutils import MdUtils
 token = sys.argv[1]
 
 headers = {
-    'Authorization': "Token" + token
+    'Authorization': "Token " + token
 }
 response = requests.get('https://api.github.com/', headers=headers)
 print(response)
