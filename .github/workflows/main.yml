@@ -1,11 +1,11 @@
-name: Build /public and deploy to gh-pages with docker container
+name: Auto update README.md
 
 on:
   # this is for manual triggering of the workflow
   workflow_dispatch:
     inputs:
       logLevel:
-        description: 'Log level'
+        description: 'Trigger this workflow to update the README.md'
         required: true
         default: 'warning'
       tags:
