@@ -4,7 +4,7 @@ from mdutils.mdutils import MdUtils
 token = input("Enter the token")
 
 headers = {
-    'Authorization': token,
+    'Authorization': "Token" + token
 }
 response = requests.get('https://api.github.com/', headers=headers)
 
