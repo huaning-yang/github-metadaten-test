@@ -3,13 +3,13 @@
 
   
 ********  
-Repository: [distpacker](https://github.com/iqb-berlin/distpacker) Latest Release: [1.0.1](https://github.com/iqb-berlin/distpacker/releases/tag/1.0.1)  
+Repository: [distpacker](https://github.com/iqb-berlin/distpacker) Release: [1.0.1](https://github.com/iqb-berlin/distpacker/releases/tag/1.0.1)  
 Description: A simple cli-script to embedd linked js & css-files in the index.html  
 Contributor: [fleckandreas](https://github.com/fleckandreas)  
 Languages: JavaScript   
 ********  
 ********  
-Repository: [eslint-config](https://github.com/iqb-berlin/eslint-config)  
+Repository: [eslint-config](https://github.com/iqb-berlin/eslint-config) Release: [0.1.12](https://github.com/iqb-berlin/eslint-config/releases/tag/0.1.12)  
 Description: ESLint rules for javascript and typescript development  
 Contributor: [rhenck](https://github.com/rhenck)  
 Contributor: [paflov](https://github.com/paflov)  
@@ -23,7 +23,7 @@ Contributor: [mechtelm](https://github.com/mechtelm)
 Languages: CSS HTML   
 ********  
 ********  
-Repository: [iqb-components](https://github.com/iqb-berlin/iqb-components)  
+Repository: [iqb-components](https://github.com/iqb-berlin/iqb-components) Release: [v1.7.2](https://github.com/iqb-berlin/iqb-components/releases/tag/v1.7.2)  
 Description: A set of recurrent items for Angular projects  
 Contributor: [paflov](https://github.com/paflov)  
 Contributor: [mechtelm](https://github.com/mechtelm)  
@@ -32,7 +32,7 @@ Contributor: [rhenck](https://github.com/rhenck)
 Languages: TypeScript HTML Python JavaScript SCSS CSS Makefile   
 ********  
 ********  
-Repository: [iqb-dev-components](https://github.com/iqb-berlin/iqb-dev-components)  
+Repository: [iqb-dev-components](https://github.com/iqb-berlin/iqb-dev-components) Release: [1.3.1](https://github.com/iqb-berlin/iqb-dev-components/releases/tag/1.3.1)  
 *There is no description for this repository*  
 Contributor: [rhenck](https://github.com/rhenck)  
 Contributor: [paflov](https://github.com/paflov)  
@@ -58,7 +58,7 @@ Contributor: [paflov](https://github.com/paflov)
 Languages:   
 ********  
 ********  
-Repository: [mdc-core](https://github.com/iqb-berlin/mdc-core) Latest Release: [1.0.0](https://github.com/iqb-berlin/mdc-core/releases/tag/1.0.0)  
+Repository: [mdc-core](https://github.com/iqb-berlin/mdc-core) Release: [1.0.0](https://github.com/iqb-berlin/mdc-core/releases/tag/1.0.0)  
 Description: metadata catalog; used in other metadata catalogs to describe scopes and subjects etc.  
 Contributor: [mechtelm](https://github.com/mechtelm)  
 Contributor: [huaning-yang](https://github.com/huaning-yang)  
@@ -72,7 +72,7 @@ Contributor: [mechtelm](https://github.com/mechtelm)
 Languages: Python JavaScript   
 ********  
 ********  
-Repository: [mdc-researchdata](https://github.com/iqb-berlin/mdc-researchdata) Latest Release: [1.0.0](https://github.com/iqb-berlin/mdc-researchdata/releases/tag/1.0.0)  
+Repository: [mdc-researchdata](https://github.com/iqb-berlin/mdc-researchdata) Release: [1.0.0](https://github.com/iqb-berlin/mdc-researchdata/releases/tag/1.0.0)  
 Description: metadata catalog; used in applications managing research data sets and processing requests to use it  
 Contributor: [LisaPegelow](https://github.com/LisaPegelow)  
 Contributor: [mechtelm](https://github.com/mechtelm)  
@@ -92,7 +92,7 @@ Contributor: [mechtelm](https://github.com/mechtelm)
 Languages:   
 ********  
 ********  
-Repository: [testcenter-admin-iqb-ng](https://github.com/iqb-berlin/testcenter-admin-iqb-ng)  
+Repository: [testcenter-admin-iqb-ng](https://github.com/iqb-berlin/testcenter-admin-iqb-ng) Release: [1.3.1](https://github.com/iqb-berlin/testcenter-admin-iqb-ng/releases/tag/1.3.1)  
 Description: the application the IQB uses for it's own assessments - client-side admin-app angular  
 Contributor: [paflov](https://github.com/paflov)  
 Contributor: [andreistroescu](https://github.com/andreistroescu)  
@@ -102,7 +102,7 @@ Contributor: [dependabot[bot]](https://github.com/apps/dependabot)
 Languages: TypeScript HTML JavaScript CSS   
 ********  
 ********  
-Repository: [testcenter-backend](https://github.com/iqb-berlin/testcenter-backend)  
+Repository: [testcenter-backend](https://github.com/iqb-berlin/testcenter-backend) Release: [9.2.2](https://github.com/iqb-berlin/testcenter-backend/releases/tag/9.2.2)  
 Description: the application the IQB uses for it's own assessments - server-side php  
 Contributor: [paflov](https://github.com/paflov)  
 Contributor: [andreistroescu](https://github.com/andreistroescu)  
@@ -113,7 +113,7 @@ Contributor: [dependabot[bot]](https://github.com/apps/dependabot)
 Languages: PHP JavaScript Python Dockerfile Shell Makefile   
 ********  
 ********  
-Repository: [testcenter-broadcasting-service](https://github.com/iqb-berlin/testcenter-broadcasting-service)  
+Repository: [testcenter-broadcasting-service](https://github.com/iqb-berlin/testcenter-broadcasting-service) Release: [2.0.3](https://github.com/iqb-berlin/testcenter-broadcasting-service/releases/tag/2.0.3)  
 Description: Small service for the so called supervising monitor of the iqb-testcenter  
 Contributor: [paflov](https://github.com/paflov)  
 Contributor: [dependabot[bot]](https://github.com/apps/dependabot)  
@@ -122,7 +122,7 @@ Contributor: [mechtelm](https://github.com/mechtelm)
 Languages: TypeScript Makefile Dockerfile   
 ********  
 ********  
-Repository: [testcenter-frontend](https://github.com/iqb-berlin/testcenter-frontend)  
+Repository: [testcenter-frontend](https://github.com/iqb-berlin/testcenter-frontend) Release: [6.5.12](https://github.com/iqb-berlin/testcenter-frontend/releases/tag/6.5.12)  
 Description: the application the IQB uses for it's own assessments - client-side angular; here you find the testcenter wiki for users and administrators  
 Contributor: [paflov](https://github.com/paflov)  
 Contributor: [mechtelm](https://github.com/mechtelm)  
@@ -140,14 +140,14 @@ Contributor: [paflov](https://github.com/paflov)
 Languages: Visual Basic .NET   
 ********  
 ********  
-Repository: [testcenter-setup](https://github.com/iqb-berlin/testcenter-setup) Latest Release: [6.5.9@9.2.2+2.0.3](https://github.com/iqb-berlin/testcenter-setup/releases/tag/6.5.9%409.2.2%2B2.0.3)  
+Repository: [testcenter-setup](https://github.com/iqb-berlin/testcenter-setup) Release: [6.5.9@9.2.2+2.0.3](https://github.com/iqb-berlin/testcenter-setup/releases/tag/6.5.9%409.2.2%2B2.0.3)  
 Description: (Docker-)Setup for the Testcenter Application  
 Contributor: [rhenck](https://github.com/rhenck)  
 Contributor: [paflov](https://github.com/paflov)  
 Languages: Python Makefile Dockerfile JavaScript TypeScript   
 ********  
 ********  
-Repository: [teststudio-lite-backend](https://github.com/iqb-berlin/teststudio-lite-backend)  
+Repository: [teststudio-lite-backend](https://github.com/iqb-berlin/teststudio-lite-backend) Release: [1.1.0](https://github.com/iqb-berlin/teststudio-lite-backend/releases/tag/1.1.0)  
 Description: Backend of Testcenter-Lite, the application the IQB uses for create test items.  
 Contributor: [mechtelm](https://github.com/mechtelm)  
 Contributor: [svwolter](https://github.com/svwolter)  
@@ -156,7 +156,7 @@ Contributor: [paflov](https://github.com/paflov)
 Languages: PHP Shell Python Dockerfile Makefile   
 ********  
 ********  
-Repository: [teststudio-lite-frontend](https://github.com/iqb-berlin/teststudio-lite-frontend)  
+Repository: [teststudio-lite-frontend](https://github.com/iqb-berlin/teststudio-lite-frontend) Release: [1.0.1](https://github.com/iqb-berlin/teststudio-lite-frontend/releases/tag/1.0.1)  
 Description: Frontent of Testcenter-Lite, the application the IQB uses for authoring test items.  
 Contributor: [mechtelm](https://github.com/mechtelm)  
 Contributor: [rhenck](https://github.com/rhenck)  
@@ -164,7 +164,7 @@ Contributor: [paflov](https://github.com/paflov)
 Languages: TypeScript HTML JavaScript CSS Python SCSS Makefile Shell Dockerfile   
 ********  
 ********  
-Repository: [teststudio-lite-setup](https://github.com/iqb-berlin/teststudio-lite-setup) Latest Release: [1.0.1@1.1.0](https://github.com/iqb-berlin/teststudio-lite-setup/releases/tag/1.0.1%401.1.0)  
+Repository: [teststudio-lite-setup](https://github.com/iqb-berlin/teststudio-lite-setup) Release: [1.0.1@1.1.0](https://github.com/iqb-berlin/teststudio-lite-setup/releases/tag/1.0.1%401.1.0)  
 Description: (Docker-)Setup for the Teststudio-Lite  
 Contributor: [rhenck](https://github.com/rhenck)  
 Contributor: [paflov](https://github.com/paflov)  
@@ -193,24 +193,24 @@ Contributor: [paflov](https://github.com/paflov)
 Languages:   
 ********  
 ********  
-Repository: [verona-editor-aspect](https://github.com/iqb-berlin/verona-editor-aspect) Latest Release: [0.0.1](https://github.com/iqb-berlin/verona-editor-aspect/releases/tag/0.0.1)  
+Repository: [verona-editor-aspect](https://github.com/iqb-berlin/verona-editor-aspect) Release: [0.0.1](https://github.com/iqb-berlin/verona-editor-aspect/releases/tag/0.0.1)  
 *There is no description for this repository*  
 Contributor: [rhenck](https://github.com/rhenck)  
 Languages: TypeScript HTML JavaScript CSS   
 ********  
 ********  
-Repository: [verona-editor-dan](https://github.com/iqb-berlin/verona-editor-dan) Latest Release: [v3.1.0](https://github.com/iqb-berlin/verona-editor-dan/releases/tag/v3.1.0)  
+Repository: [verona-editor-dan](https://github.com/iqb-berlin/verona-editor-dan) Release: [v3.1.0](https://github.com/iqb-berlin/verona-editor-dan/releases/tag/v3.1.0)  
 *There is no description for this repository*  
 Contributor: [rhenck](https://github.com/rhenck)  
 Languages: TypeScript HTML JavaScript CSS Batchfile Shell   
 ********  
 ********  
-Repository: [verona-editor-plaintext](https://github.com/iqb-berlin/verona-editor-plaintext) Latest Release: [v1.0.1](https://github.com/iqb-berlin/verona-editor-plaintext/releases/tag/v1.0.1)  
+Repository: [verona-editor-plaintext](https://github.com/iqb-berlin/verona-editor-plaintext) Release: [v1.0.1](https://github.com/iqb-berlin/verona-editor-plaintext/releases/tag/v1.0.1)  
 Description: Provides one big text input element to edit script based unit definitions or to hack others.  
 Languages: HTML   
 ********  
 ********  
-Repository: [verona-player-abi](https://github.com/iqb-berlin/verona-player-abi) Latest Release: [v3.3.2](https://github.com/iqb-berlin/verona-player-abi/releases/tag/v3.3.2)  
+Repository: [verona-player-abi](https://github.com/iqb-berlin/verona-player-abi) Release: [v3.3.2](https://github.com/iqb-berlin/verona-player-abi/releases/tag/v3.3.2)  
 Description: A programmable item-player for surveys. Contains: Player-Plugin, Editor-Plugin   
 Contributor: [rhenck](https://github.com/rhenck)  
 Contributor: [mechtelm](https://github.com/mechtelm)  
@@ -220,7 +220,7 @@ Contributor: [dan-barbulescu-dev](https://github.com/dan-barbulescu-dev)
 Languages: TypeScript HTML JavaScript CSS   
 ********  
 ********  
-Repository: [verona-player-dan](https://github.com/iqb-berlin/verona-player-dan) Latest Release: [v3.0.0](https://github.com/iqb-berlin/verona-player-dan/releases/tag/v3.0.0)  
+Repository: [verona-player-dan](https://github.com/iqb-berlin/verona-player-dan) Release: [v3.0.0](https://github.com/iqb-berlin/verona-player-dan/releases/tag/v3.0.0)  
 Description: The current default IQB Item for computer based accessment: The Dan-Player. Contains: Player-Plugin, Editor-Plugin  
 Contributor: [dan-barbulescu-dev](https://github.com/dan-barbulescu-dev)  
 Contributor: [mechtelm](https://github.com/mechtelm)  
