@@ -1,6 +1,13 @@
 import requests
 from mdutils.mdutils import MdUtils
 
+token = input("Enter the token")
+
+headers = {
+    'Authorization': token,
+}
+response = requests.get('https://api.github.com/', headers=headers)
+
 mdFile = MdUtils(file_name='README')
 
 #username = input("Enter the github username:")
