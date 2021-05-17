@@ -7,6 +7,7 @@ headers = {
     'Authorization': "Token" + token
 }
 response = requests.get('https://api.github.com/', headers=headers)
+print(response)
 
 mdFile = MdUtils(file_name='README')
 
