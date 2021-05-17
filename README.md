@@ -153,44 +153,79 @@ Contributor: [mechtelm](https://github.com/mechtelm)
 Contributor: [svwolter](https://github.com/svwolter)  
 Contributor: [rhenck](https://github.com/rhenck)  
 Contributor: [paflov](https://github.com/paflov)  
+Languages: PHP Shell Python Dockerfile Makefile   
 ********  
 ********  
 Repository: [teststudio-lite-frontend](https://github.com/iqb-berlin/teststudio-lite-frontend)  
 Description: Frontent of Testcenter-Lite, the application the IQB uses for authoring test items.  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Contributor: [rhenck](https://github.com/rhenck)  
+Contributor: [paflov](https://github.com/paflov)  
+Languages: TypeScript HTML JavaScript CSS Python SCSS Makefile Shell Dockerfile   
 ********  
 ********  
-Repository: [teststudio-lite-setup](https://github.com/iqb-berlin/teststudio-lite-setup)  
+Repository: [teststudio-lite-setup](https://github.com/iqb-berlin/teststudio-lite-setup) Latest Release: [1.0.1@1.1.0](https://github.com/iqb-berlin/teststudio-lite-setup/releases/tag/1.0.1%401.1.0)  
 Description: (Docker-)Setup for the Teststudio-Lite  
+Contributor: [rhenck](https://github.com/rhenck)  
+Contributor: [paflov](https://github.com/paflov)  
+Contributor: [svwolter](https://github.com/svwolter)  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Languages: Python Shell Makefile   
 ********  
 ********  
 Repository: [vb-lib](https://github.com/iqb-berlin/vb-lib)  
 Description: vb.net-libraries; used by many of the IQB desktop applications; all libraries are published as packages at nuget.org  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Languages: Visual Basic .NET   
 ********  
 ********  
 Repository: [vb-metadata](https://github.com/iqb-berlin/vb-metadata)  
 Description: vb.net libraries and windows application for the management of metadata; published as packages at nuget.org  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Languages: Visual Basic .NET   
 ********  
 ********  
 Repository: [verona-data-specifications](https://github.com/iqb-berlin/verona-data-specifications)  
 Description: This repo contains of all iqb data specifications related to verona-interfaces.  
+Contributor: [rhenck](https://github.com/rhenck)  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Contributor: [paflov](https://github.com/paflov)  
+Languages:   
 ********  
 ********  
-Repository: [verona-editor-aspect](https://github.com/iqb-berlin/verona-editor-aspect)  
+Repository: [verona-editor-aspect](https://github.com/iqb-berlin/verona-editor-aspect) Latest Release: [0.0.1](https://github.com/iqb-berlin/verona-editor-aspect/releases/tag/0.0.1)  
 *There is no description for this repository*  
+Contributor: [rhenck](https://github.com/rhenck)  
+Languages: TypeScript HTML JavaScript CSS   
 ********  
 ********  
-Repository: [verona-editor-dan](https://github.com/iqb-berlin/verona-editor-dan)  
+Repository: [verona-editor-dan](https://github.com/iqb-berlin/verona-editor-dan) Latest Release: [v3.1.0](https://github.com/iqb-berlin/verona-editor-dan/releases/tag/v3.1.0)  
 *There is no description for this repository*  
+Contributor: [rhenck](https://github.com/rhenck)  
+Languages: TypeScript HTML JavaScript CSS Batchfile Shell   
 ********  
 ********  
-Repository: [verona-editor-plaintext](https://github.com/iqb-berlin/verona-editor-plaintext)  
+Repository: [verona-editor-plaintext](https://github.com/iqb-berlin/verona-editor-plaintext) Latest Release: [v1.0.1](https://github.com/iqb-berlin/verona-editor-plaintext/releases/tag/v1.0.1)  
 Description: Provides one big text input element to edit script based unit definitions or to hack others.  
+Languages: HTML   
 ********  
 ********  
-Repository: [verona-player-abi](https://github.com/iqb-berlin/verona-player-abi)  
+Repository: [verona-player-abi](https://github.com/iqb-berlin/verona-player-abi) Latest Release: [v3.3.2](https://github.com/iqb-berlin/verona-player-abi/releases/tag/v3.3.2)  
 Description: A programmable item-player for surveys. Contains: Player-Plugin, Editor-Plugin   
+Contributor: [rhenck](https://github.com/rhenck)  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Contributor: [paflov](https://github.com/paflov)  
+Contributor: [dependabot[bot]](https://github.com/apps/dependabot)  
+Contributor: [dan-barbulescu-dev](https://github.com/dan-barbulescu-dev)  
+Languages: TypeScript HTML JavaScript CSS   
 ********  
 ********  
-Repository: [verona-player-dan](https://github.com/iqb-berlin/verona-player-dan)  
+Repository: [verona-player-dan](https://github.com/iqb-berlin/verona-player-dan) Latest Release: [v3.0.0](https://github.com/iqb-berlin/verona-player-dan/releases/tag/v3.0.0)  
 Description: The current default IQB Item for computer based accessment: The Dan-Player. Contains: Player-Plugin, Editor-Plugin  
+Contributor: [dan-barbulescu-dev](https://github.com/dan-barbulescu-dev)  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Contributor: [paflov](https://github.com/paflov)  
+Contributor: [dependabot[bot]](https://github.com/apps/dependabot)  
+Contributor: [rhenck](https://github.com/rhenck)  
+Languages: TypeScript CSS HTML JavaScript Batchfile Shell   
 ********
