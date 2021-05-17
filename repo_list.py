@@ -4,7 +4,7 @@ from mdutils.mdutils import MdUtils
 mdFile = MdUtils(file_name='README')
 
 #username = input("Enter the github username:")
-username = 'iqb-berlin'                                                                                                                               
+username = 'huaning-yang'                                                                                                                               
 request = requests.get('https://api.github.com/users/'+username+'/repos')
 json = request.json()
 for i in range(0,len(json)):
