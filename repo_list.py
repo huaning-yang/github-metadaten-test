@@ -1,7 +1,8 @@
 import requests
+import sys
 from mdutils.mdutils import MdUtils
 
-token = input("Enter the token")
+token = sys.argv[1]
 
 headers = {
     'Authorization': "Token" + token
