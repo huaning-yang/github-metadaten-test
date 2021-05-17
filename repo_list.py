@@ -8,7 +8,6 @@ username = 'iqb-berlin'
 request = requests.get('https://api.github.com/users/'+username+'/repos')
 repository_json = request.json()
 for i in range(0,len(repository_json)):
-  repo_url = repository_json[i]['html_url']
   repo = repository_json[i]['name']
   releases = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/releases/latest')
   contributor = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/contributors')

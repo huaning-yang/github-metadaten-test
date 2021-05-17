@@ -33,6 +33,8 @@ jobs:
       #create README.md
       - name: create markdown
         run: python repo_list.py
+        with: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: config identity
         run: git config user.email "huaning.y@gmail.com"
