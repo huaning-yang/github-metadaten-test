@@ -143,7 +143,7 @@ Contributor: [rhenck](https://github.com/rhenck)
 Contributor: [paflov](https://github.com/paflov)  
 ********  
 ********  
-Repository: [teststudio-lite-setup](https://github.com/iqb-berlin/teststudio-lite-setup) Latest Release: [1.0.0@1.0.1](https://github.com/iqb-berlin/teststudio-lite-setup/releases/tag/1.0.0%401.0.1)  
+Repository: [teststudio-lite-setup](https://github.com/iqb-berlin/teststudio-lite-setup) Latest Release: [1.0.0@1.1.0](https://github.com/iqb-berlin/teststudio-lite-setup/releases/tag/1.0.0%401.1.0)  
 Description: (Docker-)Setup for the Teststudio-Lite  
 Contributor: [rhenck](https://github.com/rhenck)  
 Contributor: [paflov](https://github.com/paflov)  
@@ -181,10 +181,15 @@ Repository: [verona-editor-plaintext](https://github.com/iqb-berlin/verona-edito
 Description: Provides one big text input element to edit script based unit definitions or to hack others.  
 ********  
 ********  
-Repository: [verona-player-abi](https://github.com/iqb-berlin/verona-player-abi)  
+Repository: [verona-player-abi](https://github.com/iqb-berlin/verona-player-abi) Latest Release: [v3.3.2](https://github.com/iqb-berlin/verona-player-abi/releases/tag/v3.3.2)  
 Description: A programmable item-player for surveys. Contains: Player-Plugin, Editor-Plugin   
+Contributor: [rhenck](https://github.com/rhenck)  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Contributor: [paflov](https://github.com/paflov)  
+Contributor: [dependabot[bot]](https://github.com/apps/dependabot)  
+Contributor: [dan-barbulescu-dev](https://github.com/dan-barbulescu-dev)  
 ********  
 ********  
-Repository: [verona-player-dan](https://github.com/iqb-berlin/verona-player-dan)  
+Repository: [verona-player-dan](https://github.com/iqb-berlin/verona-player-dan) Latest Release: [v3.0.0](https://github.com/iqb-berlin/verona-player-dan/releases/tag/v3.0.0)  
 Description: The current default IQB Item for computer based accessment: The Dan-Player. Contains: Player-Plugin, Editor-Plugin  
 ********
