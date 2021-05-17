@@ -140,12 +140,19 @@ Contributor: [paflov](https://github.com/paflov)
 Languages: Visual Basic .NET   
 ********  
 ********  
-Repository: [testcenter-setup](https://github.com/iqb-berlin/testcenter-setup)  
+Repository: [testcenter-setup](https://github.com/iqb-berlin/testcenter-setup) Latest Release: [6.5.9@9.2.2+2.0.3](https://github.com/iqb-berlin/testcenter-setup/releases/tag/6.5.9%409.2.2%2B2.0.3)  
 Description: (Docker-)Setup for the Testcenter Application  
+Contributor: [rhenck](https://github.com/rhenck)  
+Contributor: [paflov](https://github.com/paflov)  
+Languages: Python Makefile Dockerfile JavaScript TypeScript   
 ********  
 ********  
 Repository: [teststudio-lite-backend](https://github.com/iqb-berlin/teststudio-lite-backend)  
 Description: Backend of Testcenter-Lite, the application the IQB uses for create test items.  
+Contributor: [mechtelm](https://github.com/mechtelm)  
+Contributor: [svwolter](https://github.com/svwolter)  
+Contributor: [rhenck](https://github.com/rhenck)  
+Contributor: [paflov](https://github.com/paflov)  
 ********  
 ********  
 Repository: [teststudio-lite-frontend](https://github.com/iqb-berlin/teststudio-lite-frontend)  
