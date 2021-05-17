@@ -19,13 +19,16 @@ for i in range(0,len(repository_json)):
   releases = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/releases/latest', headers=headers)
   contributor = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/contributors', headers=headers)
   languages = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/languages', headers=headers)
-  
+  tags = requests.get('https://api.github.com/repos/'+username+'/'+repo+'/tags', headers=headers)
+  tags_json = tags.json()
 
   mdFile.new_line('********')
   
-  if(releases.status_code == 200):
+  if(releases.status_code == 200 and len(tags_json) != 0):
     releases_json = releases.json()
-    mdFile.new_line('Repository: ' + mdFile.new_inline_link(link=repository_json[i]['html_url'],text=repository_json[i]['name']) + ' ' + 'Latest Release: ' + mdFile.new_inline_link(link=releases_json['html_url'],text=releases_json['tag_name']))
+    mdFile.new_line('Repository: ' + mdFile.new_inline_link(link=repository_json[i]['html_url'],text=repository_json[i]['name']) + ' ' + 'Release: ' + mdFile.new_inline_link(link=releases_json['html_url'],text=releases_json['tag_name']))
+  elif(releases.status_code != 200 and len(tags_json) != 0):
+    mdFile.new_line('Repository: ' + mdFile.new_inline_link(link=repository_json[i]['html_url'],text=repository_json[i]['name']) + ' ' + 'Release: ' + mdFile.new_inline_link(link='https://github.com/'+username+'/'+repo+'/releases/tag/'+tags_json[0]['name'],text=tags_json[0]['name']))
   else:
     mdFile.new_line('Repository: ' + mdFile.new_inline_link(link=repository_json[i]['html_url'],text=repository_json[i]['name']) )
 
@@ -44,7 +47,7 @@ for i in range(0,len(repository_json)):
     mdFile.new_line('Languages: ')
     for keys in languages_json.keys():
       mdFile.write(keys + " ")
-
+ 
   mdFile.new_line('********')
 
 print("done")
